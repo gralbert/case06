@@ -11,7 +11,14 @@ def draw_hexagon(x, y, side_len, color):
 
 
 def tiling(number, color1, color2):
-    # TODO
+    color = ''
+    for i in range(4):
+        if i % 2 != 0:
+            color = color1
+        else:
+            color = color2
+        x += d
+        draw_hexagon(d, color, x, y)
 
 
 def main():
